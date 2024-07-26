@@ -1,6 +1,8 @@
-w = int(input())
+import sys
 
-if w > 2 and w % 2 == 0:
+w = int(sys.stdin.readline().strip())
+
+if (w % 2 == 0) and (w >= 4):
     print('YES')
 else:
     print('NO')
