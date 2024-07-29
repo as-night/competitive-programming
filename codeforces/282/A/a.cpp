@@ -14,12 +14,14 @@ int main() {
 
     while(n--) {
         std::cin >> s;
+
         if (s[1] == '+') {
             ++x;
         } else {
             --x;
         }
     }
+
     std::cout << x << '\n';
 
     return EXIT_SUCCESS;
