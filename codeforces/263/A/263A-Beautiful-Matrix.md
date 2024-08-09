@@ -1,6 +1,6 @@
 # 263A - Beautiful Matrix
 
-Use doubly-nested `for` loop to read from the standard input. When one
+Use doubly-nested `for` loops to read from the standard input. When one
 of the chars is equal to `1`, calculate the number of required moves
 to get the beautiful matrix according to the following formula:
 ```
