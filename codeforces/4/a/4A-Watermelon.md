@@ -52,5 +52,5 @@ To "optimize" the solution, i.e., minimize the number of checks, we
 really should test `w` for evenness first - this eliminates all the
 odd numbers right off the bat. If `w` is even, we have to perform one
 additional but neccessary check: the number `w` itself has to be equal
-to or grater than 4; otherwise the number can't split into two even
+to or grater than 4; otherwise the number can't be split into two even
 numbers.
