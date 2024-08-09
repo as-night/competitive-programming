@@ -3,7 +3,8 @@
 #include <iostream>
 #include <string>
 
-int main() {
+int main()
+{
     std::ios::sync_with_stdio(false);
     std::cin.tie(nullptr);
 
@@ -14,6 +15,7 @@ int main() {
 
     while (n--) {
         std::cin >> s;
+
         if (s.length() > 10) {
             std::cout << std::format("{}{}{}\n",
                                      s.front(),
