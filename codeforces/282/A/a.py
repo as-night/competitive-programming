@@ -6,6 +6,7 @@ s = ''
 
 for _ in range(n):
     s = sys.stdin.readline().strip()
+
     if s[1] == '+':
         x += 1
     else:
