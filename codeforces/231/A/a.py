@@ -1,7 +1,7 @@
 import sys
 
 n = int(sys.stdin.readline().strip())
-s = 0
+s = ''
 ans = 0
 
 for _ in range(n):
